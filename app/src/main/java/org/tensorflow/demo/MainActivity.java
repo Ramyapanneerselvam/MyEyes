@@ -1,19 +1,3 @@
-/*
- * Copyright (C) The Android Open Source Project
- *
- * Licensed under the Apache License, Version 2.0 (the "License");
- * you may not use this file except in compliance with the License.
- * You may obtain a copy of the License at
- *
- *      http://www.apache.org/licenses/LICENSE-2.0
- *
- * Unless required by applicable law or agreed to in writing, software
- * distributed under the License is distributed on an "AS IS" BASIS,
- * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
- * See the License for the specific language governing permissions and
- * limitations under the License.
- */
-
 package org.tensorflow.demo;
 
 import android.app.AlertDialog;
@@ -53,10 +37,6 @@ import com.majeur.cling.ClingManager;
 
 import java.util.Locale;
 
-/**
- * Main activity demonstrating how to pass extra parameters to an activity that
- * recognizes text.
- */
 public class MainActivity extends AppCompatActivity implements View.OnClickListener {
 
     int GLOBAL_TOUCH_POSITION_X = 0,c=0;
@@ -238,12 +218,6 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         final AlertDialog.Builder popDialog = new AlertDialog.Builder(this);
         final SeekBar seek = new SeekBar(this);
         int value = 0;
-        /*try {
-            value = Integer.parseInt(tv.getText().toString());
-        } catch(NumberFormatException nfe) {
-            System.out.println("Could not parse " + nfe);
-        }
-*/
         SharedPreferences prefs = getApplicationContext().getSharedPreferences("mySharedPrefsFilename", Context.MODE_PRIVATE);
         value = prefs.getInt("seekBarValue2", 20);
         seek.setProgress(value);
@@ -252,8 +226,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         seek.setOnSeekBarChangeListener(new SeekBar.OnSeekBarChangeListener() {
 
             public void onProgressChanged(SeekBar seekBar, int progress, boolean fromUser){
-                //Update textview value
-                //              tv.setText("Value : " + progress);
+                
             }
             public void onStartTrackingTouch(SeekBar arg0) {
                 // TODO Auto-generated method stub
@@ -427,6 +400,13 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
                 .setTarget(new com.majeur.cling.ViewTarget(this, R.id.tsize))
                 .build());
 
+
+        mClingManager.addCling(new Cling.Builder(this)
+                .setTitle("Speak File")
+                .setContent("Tap here to speak the file contents")
+                .setTarget(new com.majeur.cling.ViewTarget(this, R.id.speakfile))
+                .build());
+
         mClingManager.addCling(new Cling.Builder(this)
                 .setTitle("AutoFocus")
                 .setContent("Slide to enable/disable auto focus")
@@ -461,7 +441,6 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
                 .setTitle("Alternatively")
                 .setContent(content)
                 .build());
-
 
         if(stop.getVisibility()== View.VISIBLE)
         {
@@ -551,15 +530,12 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
     }
 
     void handleTouch(MotionEvent m){
-        //Number of touches
         int pointerCount = m.getPointerCount();
         if(pointerCount == 2){
             int action = m.getActionMasked();
             int actionIndex = m.getActionIndex();
             String actionString;
-            //TextView tv = (TextView) findViewById(R.id.testDiffText);
             if(c<1) {
-               // Toast.makeText(MainActivity.this, "Marao", Toast.LENGTH_SHORT).show();
                 c++;
                 Intent i = new Intent(MainActivity.this, CameraActivity.class);
                 startActivity(i);
