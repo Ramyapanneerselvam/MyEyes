@@ -9,6 +9,7 @@ import android.util.Log;
 import android.view.View;
 import android.widget.Button;
 import android.widget.ImageView;
+import android.widget.TextView;
 
 import com.itextpdf.text.pdf.PdfReader;
 import com.itextpdf.text.pdf.parser.PdfTextExtractor;
@@ -22,6 +23,7 @@ import java.util.Locale;
 
 public class Pdf_read extends AppCompatActivity {
     Button bt;
+    TextView tv;
     ImageView img;
     Integer PICK_IMAGE_REQUEST=3;
     Button bt1;
@@ -31,8 +33,8 @@ public class Pdf_read extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_pdf_read);
+        tv=(TextView)findViewById(R.id.speaktv);
         bt=(Button)findViewById(R.id.bt);
-        img=(ImageView)findViewById(R.id.img);
         bt.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -98,7 +100,7 @@ public class Pdf_read extends AppCompatActivity {
                     }
                 }
 
-
+                tv.setText(myData);
                 Log.e("sdadsfdfsfsf",myData);
                 tts.speak(myData,TextToSpeech.QUEUE_FLUSH,null,"DEFAULT");
 
