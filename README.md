@@ -9,6 +9,7 @@ The use of **text to speech services**, **notification speak out**,**extract tex
 * Object detection for a hypermetropic or myopic suffering person.
 * Use gestures for almost everything you want to try on the app (And you don't need to know the instructions. Everything will be spoken out. :+1: :+1: )
 * Speak out every status bar notification for the user including full sms read and caller name read.
+* Speak out the contents of any file in the mobile storage.
 
 ## Extra features provided :
 
