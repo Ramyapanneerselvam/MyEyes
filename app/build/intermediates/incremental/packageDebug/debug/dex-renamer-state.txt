@@ -1,0 +1,7 @@
+#Sat Jan 27 07:24:16 IST 2018
+base.0=C\:\\Users\\AJAY KUMAR\\Downloads\\android-vision-master\\visionSamples\\iSPEAK\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\138
+path.1=classes2.dex
+renamed.1=classes2.dex
+path.0=classes.dex
+renamed.0=classes.dex
+base.1=C\:\\Users\\AJAY KUMAR\\Downloads\\android-vision-master\\visionSamples\\iSPEAK\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\138

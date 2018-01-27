@@ -1,0 +1,3 @@
+# Referenced at C:\Users\AJAY KUMAR\Downloads\android-vision-master\visionSamples\iSPEAK\app\build\intermediates\manifests\full\debug\AndroidManifest.xml:20
+-keep class android.support.multidex.MultiDexApplication { <init>(...); }
+
