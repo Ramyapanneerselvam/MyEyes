@@ -1,2 +1,2 @@
 <?xml version="1.0" encoding="utf-8"?>
-<merger version="3"><dataSet config="main"><source path="C:\Users\AJAY KUMAR\Downloads\android-vision-master\visionSamples\iSPEAK\app\src\main\shaders"/></dataSet><dataSet config="debug"><source path="C:\Users\AJAY KUMAR\Downloads\android-vision-master\visionSamples\iSPEAK\app\src\debug\shaders"/></dataSet></merger>
+<merger version="3"><dataSet config="main"><source path="E:\AndroidStudioProjects\copy\iSPEAK\app\src\main\shaders"/></dataSet><dataSet config="debug"><source path="E:\AndroidStudioProjects\copy\iSPEAK\app\src\debug\shaders"/></dataSet></merger>

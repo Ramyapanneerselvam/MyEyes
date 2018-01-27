@@ -1,38 +1,16 @@
 {
     "logs": [
         {
-            "outputFile": "C:\\Users\\AJAY KUMAR\\Downloads\\android-vision-master\\visionSamples\\iSPEAK\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-w820dp-v13\\values-w820dp-v13.xml",
+            "outputFile": "E:\\AndroidStudioProjects\\copy\\iSPEAK\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-w820dp-v13\\values-w820dp-v13.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\AJAY KUMAR\\Downloads\\android-vision-master\\visionSamples\\iSPEAK\\app\\src\\main\\res\\values-w820dp\\dimens.xml",
+                    "source": "C:\\Users\\AJAY KUMAR\\.gradle\\caches\\transforms-1\\files-1.1\\AwesomeSplash-v1.0.0.aar\\42a62d4e00a03ad907800e2b852bb9ba\\res\\values-w820dp\\values-w820dp.xml",
                     "from": {
                         "startLines": "4",
                         "startColumns": "4",
-                        "startOffsets": "291",
+                        "startOffsets": "147",
                         "endColumns": "57",
-                        "endOffsets": "344"
-                    },
-                    "to": {
-                        "startLines": "2",
-                        "startColumns": "4",
-                        "startOffsets": "55",
-                        "endColumns": "57",
-                        "endOffsets": "108"
-                    }
-                }
-            ]
-        },
-        {
-            "outputFile": "C:\\Users\\AJAY KUMAR\\Downloads\\android-vision-master\\visionSamples\\ocr-reader\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-w820dp-v13\\values-w820dp-v13.xml",
-            "map": [
-                {
-                    "source": "C:\\Users\\AJAY KUMAR\\Downloads\\android-vision-master\\visionSamples\\ocr-reader\\app\\src\\main\\res\\values-w820dp\\dimens.xml",
-                    "from": {
-                        "startLines": "4",
-                        "startColumns": "4",
-                        "startOffsets": "291",
-                        "endColumns": "57",
-                        "endOffsets": "344"
+                        "endOffsets": "200"
                     },
                     "to": {
                         "startLines": "2",

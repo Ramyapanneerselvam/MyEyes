@@ -1,5 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <style name="AppBaseTheme" parent="android:Theme.Holo.Light">
+    <!-- API 11 theme customizations can go here. -->
+  </style>
+    <style name="AppTheme.NoActionBar">
+    <item name="windowActionBar">false</item>
+    <item name="windowNoTitle">true</item>
+  </style>
     <style name="Base.TextAppearance.AppCompat.Inverse">
         <item name="android:textColor">?android:attr/textColorPrimaryInverse</item>
         <item name="android:textColorHint">?android:attr/textColorHintInverse</item>
@@ -78,6 +85,16 @@
     </style>
     <style name="Base.Widget.AppCompat.ProgressBar.Horizontal" parent="android:Widget.Holo.ProgressBar.Horizontal">
     </style>
+    <style name="FullscreenActionBarStyle" parent="android:Widget.Holo.ActionBar">
+    <!--  <item name="android:background">@color/black_overlay</item>  -->
+  </style>
+    <style name="FullscreenTheme" parent="android:Theme.Holo">
+    <item name="android:actionBarStyle">@style/FullscreenActionBarStyle</item>
+    <item name="android:windowActionBarOverlay">true</item>
+    <item name="android:windowBackground">@null</item>
+    <item name="metaButtonBarStyle">?android:attr/buttonBarStyle</item>
+    <item name="metaButtonBarButtonStyle">?android:attr/buttonBarButtonStyle</item>
+  </style>
     <style name="Platform.AppCompat" parent="Platform.V11.AppCompat"/>
     <style name="Platform.AppCompat.Light" parent="Platform.V11.AppCompat.Light"/>
     <style name="Platform.V11.AppCompat" parent="android:Theme.Holo">
@@ -188,4 +205,5 @@
         <item name="android:textSelectHandleRight">@drawable/abc_text_select_handle_right_mtrl_light</item>
     </style>
     <style name="Platform.Widget.AppCompat.Spinner" parent="android:Widget.Holo.Spinner"/>
+    <style name="Theme.Base" parent="android:Theme.Holo.Light"/>
 </resources>

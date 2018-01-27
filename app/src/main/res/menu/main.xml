@@ -1,5 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
-<menu xmlns:android="http://schemas.android.com/apk/res/android">
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/menu_bar"
+    >
 <item
     android:title="Tutorial"
     android:id="@+id/textsize"
@@ -8,4 +10,9 @@
         android:title="Share App"
         android:id="@+id/speechrate"
         android:orderInCategory="101"/>
+    <item
+        android:title="About Us"
+        android:id="@+id/aboutus"
+        android:orderInCategory="102"/>
+
 </menu>

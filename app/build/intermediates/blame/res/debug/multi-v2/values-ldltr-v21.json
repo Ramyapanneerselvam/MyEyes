@@ -1,22 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "C:\\Users\\AJAY KUMAR\\Downloads\\android-vision-master\\visionSamples\\iSPEAK\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-ldltr-v21\\values-ldltr-v21.xml",
-            "map": [
-                {
-                    "source": "C:\\Users\\AJAY KUMAR\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-25.1.1.aar\\e339d3ea57d9d33b8d5494066d461fef\\res\\values-ldltr-v21\\values-ldltr-v21.xml",
-                    "from": {
-                        "startLines": "2",
-                        "startColumns": "4",
-                        "startOffsets": "55",
-                        "endColumns": "112",
-                        "endOffsets": "163"
-                    }
-                }
-            ]
-        },
-        {
-            "outputFile": "C:\\Users\\AJAY KUMAR\\Downloads\\android-vision-master\\visionSamples\\ocr-reader\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-ldltr-v21\\values-ldltr-v21.xml",
+            "outputFile": "E:\\AndroidStudioProjects\\copy\\iSPEAK\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-ldltr-v21\\values-ldltr-v21.xml",
             "map": [
                 {
                     "source": "C:\\Users\\AJAY KUMAR\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-25.1.1.aar\\e339d3ea57d9d33b8d5494066d461fef\\res\\values-ldltr-v21\\values-ldltr-v21.xml",

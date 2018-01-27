@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://C:\Users\AJAY KUMAR\Downloads\android-yolo-master\android-yolo-master\android-yolo.iml" filepath="C:\Users\AJAY KUMAR\Downloads\android-yolo-master\android-yolo-master\android-yolo.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
       <module fileurl="file://$PROJECT_DIR$/iSPEAK.iml" filepath="$PROJECT_DIR$/iSPEAK.iml" />
     </modules>
