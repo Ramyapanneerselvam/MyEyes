@@ -1,4 +1,4 @@
-# iSPEAK
+# My Eyes
 An interactive app designed specially for persons suffering from myopia, hypermeteropia and many vision related problems which acts like a *stick* for such people.
 The use of **text to speech services**, **notification speak out**,**extract text features** , **object detection** and many such useful features which help in making the life of low vision suffering people easy. The use of gestures and tutorial speech makes the app handy and easy to use for anyone and everyone. **TensorFlow Library** helps in a unique way to identify objects near you and speak them synchoronously. 
 
